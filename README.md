@@ -1,2 +1,2 @@
 # remind
-vue.js/react.js + restify + react native
+vue.js + restify

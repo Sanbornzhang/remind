@@ -1,0 +1,3 @@
+name: 'userDB'
+dialect: 'sqlite'
+storage: './dev.db'

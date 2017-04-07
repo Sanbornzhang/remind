@@ -1,0 +1,15 @@
+*.csv
+*.dat
+*.iml
+*.log
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz
+*.xml
+*.sqlite3
+node_modules
+.vscode/

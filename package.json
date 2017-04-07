@@ -1,0 +1,25 @@
+{
+  "name": "remind",
+  "version": "0.0.1",
+  "description": "a Web project for remind people to do somthing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanbornzhang/remind.git"
+  },
+  "author": "SanbornZHang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sanbornzhang/remind/issues"
+  },
+  "homepage": "https://github.com/Sanbornzhang/remind#readme",
+  "dependencies": {
+    "js-yaml": "^3.8.2",
+    "restify": "^4.3.0",
+    "restify-plugins": "^1.5.1",
+    "sequelize": "^3.30.4"
+  }
+}
