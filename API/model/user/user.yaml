@@ -1,5 +1,5 @@
 properties:
-  userName:
+  username:
     type: 'string'
     required: true
   password:

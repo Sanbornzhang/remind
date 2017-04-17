@@ -1,6 +1,11 @@
-const login = (aReq,aRes,next)=>
+const path = require('path')
+
+const Model = require(path.join(__dirname,'../../bin/Model'))
+const User = Model(path.join(__dirname,'./user.yaml'))
+
+exports.login = (aReq,aRes,next)=>
 {
-  return Model.find({where:{userName:aUserName,passWord:aPassword}})
+  return User.find({where:{userName:aUserName,passWord:aPassword}})
   .then((vUser)=>{
     if(!vUser.length)
     {
@@ -21,6 +26,6 @@ const register = (aReq,aRes,next)=>
   return Model.create(vUser)
   .then(()=>
   {
-
+    return
   })
 }

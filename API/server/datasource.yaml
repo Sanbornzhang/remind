@@ -1,0 +1,3 @@
+sqlite:
+  name: 'data'
+  storage: 'data.db'

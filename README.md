@@ -1,2 +1,2 @@
 # remind
-vue.js + restify
+vue.js + strongloop
