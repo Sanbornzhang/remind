@@ -1,2 +1,3 @@
 # remind
-vue.js + strongloop
+react.js + restify
+strongloop 太重了...
